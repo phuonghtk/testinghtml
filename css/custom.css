@@ -1,0 +1,72 @@
+body {
+  /*font-family: "FranklinGothicFSCdRegular";*/
+  font-size: 13pt; 
+}
+.content {
+  text-align: center;
+  margin-top: 1.5em;
+}
+.hero-unit {
+  padding-bottom: 40px;
+  color: #000;
+  background-color: #000;
+  background-image: url(../img/window-tile.png);
+  border-bottom: 1px solid #ddd;
+  background-position: center;
+  background-repeat: repeat;
+}
+.hero-unit input {
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+#run_list .row {
+  margin-bottom: 11px;
+  padding: 11px;
+  border: solid 1px #E2E2E2;
+  border-left: solid 4px rgba(105, 190, 40,.7);
+  cursor: pointer;
+  color: rgba(64, 64, 64,.7);
+  font-family: "FranklinGothicFSCdRegular";
+}
+
+#run_list .row:hover {
+  background: #F2F2F2;
+}
+
+#run_list .row:nth-child(2n) {
+  border-left: solid 4px rgba(222, 56, 49,.7);
+}
+#run_list .span2 {
+  text-align:center;
+  margin-left: 0;
+}
+#run_list .span1.pull-right {
+  font-size: 80%;
+  min-height: 80px;
+  font-weight: bold;
+  line-height: 80px;
+  color: #444;
+  display: block;
+}
+#run_list strong {
+  font-size: 24px;
+  display: block;
+  font-family: "FranklinGothicFSCdRegular";
+  margin-bottom:5px;
+  color: rgb(248, 148, 6);
+}
+#run_list a {
+  color: #8A5A76;
+}
+.stepbystep {
+  /*background-color: #000;*/
+  margin-top: 40px;
+}
+
+.footer {
+  padding: 5px 0 20px;
+  margin-top: 70px;
+  border-top: 1px solid #E5E5E5;
+  background-color: whiteSmoke;
+}
